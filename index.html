@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Global_LocalVariables</title>
+  </head>
+  <body>
+    <script>
+      var data = 50; //global variable declaration
+      function a() {
+        document.write("Global Variable => ");
+        document.writeln(data);
+      }
+      function b() {
+        var data = 100; //local variable declaration
+        document.write("<br>");
+        document.write("Local Variable => ");
+        document.writeln(data);
+      }
+      a(); //calling JavaScript function
+      b();
+
+      console.log(`Menu Items
+      Sandwich
+      French Fies
+      Potato wedges
+      Donuts
+      Pizza`);
+    </script>
+  </body>
+</html>
